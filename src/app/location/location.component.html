@@ -1,0 +1,39 @@
+<body>
+  <div class="main" *ngIf="result1">
+    <div class="card">
+      <div class="image">
+        <img src="/assets/halwa.jpg">
+      </div>
+      <div class="title">
+        <h1>Tirunelveli</h1>
+      </div>
+      <div class="des">
+        <p>Find Your Restaurant in <span style="color: red;"><u>Tirunelveli</u></span>...</p>
+        <button (click)=" getCard()">View...</button>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+<div class="main1" *ngIf="result">
+  <div class="card1" *ngFor="let restaurant of tvl">
+    <div class="image ">
+      <img src="{{restaurant.image_url}}">
+    </div>
+    <div class="name">
+      <b>{{restaurant.name}}</b>
+    </div>
+    <hr>
+    <div class="add">
+      <b> Address:</b>{{restaurant.address}}
+    </div>
+    <hr>
+    <div class="rating">
+      <b>Rating:</b>{{restaurant.rating}}<div class="fa fa-star checked"></div>
+    </div>
+  </div>
+</div>

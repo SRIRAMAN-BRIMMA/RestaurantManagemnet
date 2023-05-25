@@ -1,0 +1,58 @@
+
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+.checked {
+	color: orange;
+  }
+.restaurants{
+  color:red;
+}
+.main{
+  margin: 2%;
+ }
+ 
+ .card{
+      width: 25%;
+      display: inline-block;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 5px; 
+      margin: 4%;
+     }
+ 
+ .image img{
+   width: 100%;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+  }
+ 
+ .name{  
+   text-align: center;
+   padding: 10px;
+   
+  }
+
+  .rating{
+  
+    text-align: center;
+    padding: 10px;
+    
+   }
+ .add{
+   padding: 3px;
+   text-align: center;
+   padding-top: 10px;
+         border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+ }
+
+ .all{
+  width: 90%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 5px; 
+  margin: 4%;
+ }
+
+  /* .restaurants{
+    color:red;
+  } */

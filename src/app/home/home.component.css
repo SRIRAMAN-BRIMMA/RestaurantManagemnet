@@ -1,0 +1,83 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css';
+
+.bgimg{
+  background: url("/assets/hero-bg.jpg") no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.checked {
+	color: orange;
+  }
+
+
+  .main{
+
+    margin: 2%;
+   }
+   
+   .card{
+        width: 25%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px; 
+        margin: 4%;
+       }
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     
+   
+    
+    }
+   
+   .name{
+    
+     text-align: center;
+     padding: 10px;
+     
+    }
+  
+    .rating{
+    
+      text-align: center;
+      padding: 10px;
+      
+     }
+   .add{
+     padding: 3px;
+     text-align: center;
+     padding-top: 10px;
+           border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+ 
+
+   .all{
+    width: 100%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+   }
+
+
+
+
+
+
+
+
+  
